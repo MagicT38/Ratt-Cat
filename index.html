@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="es">
+    
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="Catt&Ratt.png" type="image/png">
+
+    <title>Gato y Raton</title>
+    <link rel="stylesheet" href="gato.css">
+</head>
+<body>
+    <h1>JUEGO DEL GATO</h1>
+    <canvas id="tablero" class="tablero" width="500" height="500" 
+        onclick="seleccionarCelda(event)"
+        onmousemove="resaltarCelda(event)"
+        onmouseout="quitarResaltado(event)"></canvas>
+    <script src="gato.js"></script>
+
+    <br>
+
+    <button onclick="reiniciarJuego()">Reiniciar</button>
+
+    <br>
+
+
+</body>
+</html>
+
+
+
